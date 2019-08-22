@@ -31,3 +31,14 @@ and then:
 the javadocs can be found in the folder :  
 > Javadocs
 
+### Executing a query to the heroku server
+to execute a query to the heroku server we must follow the next structure:  
+for the media:  
+> curl -i -X POST -H 'Content-Type: text/plain' -d '{insert here the numbers separated by a blank space}' https://medianspark.herokuapp.com/media  
+
+and for the standard deviation:  
+> curl -i -X POST -H 'Content-Type: text/plain' -d '{insert here the numbers separated by a blank space}' https://medianspark.herokuapp.com/desviacion 
+
+here is an example:  
+![](images/consulta.png)  
+
